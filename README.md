@@ -12,7 +12,7 @@ In order to be able to train a model on your machine you must download the follo
 
 * The file: [`Webiks_Hebrew_RAGbot_KolZchut_Paragraphs_Corpus_v1.0.json`](https://drive.google.com/file/d/18hAihDl0NlBz4EFubSnN7YMwL4v58qP_/view?usp=drive_link) is the paragraph corpus used to train our model. It contains all relevant paragraphs from the Kol-Zchut website, extracted by splitting the Kol-Zchut webpages according to their HTML titles, and then combining paragraphs up to the maximum context size of the me5-large model, which is 512 tokens.
 * The corpus was extracated from the KolZchut website in May 2024 and is not necessarily up to date with today's website.
-* For more information about this file you can check this dedicated [repo](https://github.com/NNLP-IL/Webiks-KolZchut-QA-Paragraph-Corpus).
+* For more information about this file you can check this dedicated [repo](https://github.com/NNLP-IL/Webiks-Hebrew-RAGbot-KolZchut-Paragraph-Corpus).
 
 ### Training Data
 
